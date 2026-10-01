@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EEGameStudio</title>
+  <meta name="description" content="EEGameStudio - Eğlenceli ve sade oyunlar geliştiren bağımsız oyun stüdyosu." />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">EE</span>
+        <span>EEGameStudio</span>
+      </a>
+      <nav class="nav">
+        <a href="index.html" class="active">Ana Sayfa</a>
+        <a href="privacy.html">Gizlilik</a>
+        <a href="terms.html">Koşullar</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="blob one"></div>
+      <div class="blob two"></div>
+      <div class="blob three"></div>
+      <div class="container">
+        <span class="badge">🎮 Bağımsız Oyun Stüdyosu</span>
+        <h1>Küçük oyunlar,<br /><span class="gradient">büyük eğlence.</span></h1>
+        <p>EEGameStudio olarak herkesin keyifle oynayabileceği sade, renkli ve eğlenceli oyunlar geliştiriyoruz.</p>
+        <a href="#iletisim" class="btn">Bize Ulaşın</a>
+        <a href="privacy.html" class="btn secondary">Gizlilik Politikası</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Neler Yapıyoruz?</h2>
+        <p class="section-subtitle">Oyun geliştirirken önem verdiğimiz şeyler</p>
+        <div class="cards">
+          <div class="card">
+            <div class="icon">✨</div>
+            <h3>Sade Tasarım</h3>
+            <p>Açar açmaz oynanabilen, anlaşılması kolay oyunlar.</p>
+          </div>
+          <div class="card">
+            <div class="icon">💜</div>
+            <h3>Herkes İçin</h3>
+            <p>Her yaştan oyuncunun keyif alabileceği deneyimler.</p>
+          </div>
+          <div class="card">
+            <div class="icon">🔒</div>
+            <h3>Gizliliğe Saygı</h3>
+            <p>Verilerinizi önemsiyor, şeffaf politikalarla hareket ediyoruz.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Yasal Belgeler</h2>
+        <p class="section-subtitle">Oyunlarımıza ait sözleşme ve politikalar</p>
+        <div class="cards">
+          <a href="privacy.html" class="card link-card">
+            <div class="icon">📄</div>
+            <h3>Gizlilik Politikası</h3>
+            <p>Hangi verileri topladığımız ve nasıl kullandığımız.</p>
+            <span class="arrow">Oku →</span>
+          </a>
+          <a href="terms.html" class="card link-card">
+            <div class="icon">📜</div>
+            <h3>Kullanım Koşulları</h3>
+            <p>Oyunlarımızı kullanırken geçerli olan kurallar.</p>
+            <span class="arrow">Oku →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="iletisim">
+      <div class="container">
+        <div class="contact-box">
+          <h2>Merhaba demek ister misiniz?</h2>
+          <p>Soru, öneri ya da destek talepleriniz için bize e-posta gönderin.</p>
+          <a href="mailto:contact@eegamestudio.com" class="btn">contact@eegamestudio.com</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>© <span id="year">2026</span> EEGameStudio. Tüm hakları saklıdır.</span>
+      <nav>
+        <a href="privacy.html">Gizlilik Politikası</a>
+        <a href="terms.html">Kullanım Koşulları</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
